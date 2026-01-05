@@ -1,0 +1,31 @@
+name: ask_gemini_button
+description: Ask Gemini Button from Gmail
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_shapes:
+    git:
+      url: git@github.com:ksokolovskyi/material_shapes.git
+      ref: 12ee853fbb4b5987dbbfe9bffc19fede57cd0295
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^10.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/og-image.png
+
+  fonts:
+    - family: GoogleSansFlex
+      fonts:
+        - asset: assets/fonts/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf
